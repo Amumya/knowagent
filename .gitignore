@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 环境变量与密钥 —— 最重要的一条
+.env
+.env.*
+*.key
+*_token.txt
+.github_token.txt
+secrets/
+
+# 数据与索引（太大，不该进 git）
+corpus/raw/
+corpus/index/
+*.faiss
+*.sqlite
+*.db
+data/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志与产物
+*.log
+dist/
+build/
